@@ -14,4 +14,10 @@ int main(){
 	cout << "x = " << x << ", y = " << y << "\n";
 	
 	return 0;
+} 
+ void mySwap(int &x, int &y ){
+  int a;
+  a = x;
+  x = y;
+  y = a;
 }
